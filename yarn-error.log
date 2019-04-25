@@ -1,0 +1,59 @@
+Arguments: 
+  D:\node\node.exe D:\yarn\bin\yarn.js add prop-types
+
+PATH: 
+  D:\java-jdk\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MinGw\bin;D:\curl\curl-7.61.0-win64-mingw\bin;D:\mysql\bin;D:\node;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\MongoDB\Server\3.4\bin;D:\python2;D:\python2\Scripts;D:\node\;D:\vscode\Microsoft VS Code\bin;D:\android-sdk;D:\android-sdk\platform-tools;D:\android-sdk\tools;D:\yarn\bin\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;D:\pycharm\PyCharm 2018.3.2\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\atom\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Local\Google\Chrome\Application;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v4\npm-inherits-2.0.1-b17d08d326b4423e568eff719f91b0b1cbdf69f1\node_modules\inherits\inherits.js' -> 'E:\practise web\react\react\01webpack\node_modules\assert\node_modules\inherits\inherits.js'
+
+npm manifest: 
+  {
+    "name": "01webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack-dev-server --hot --open --port 8080 --contentBase src"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "css-loader": "^2.1.1",
+      "file-loader": "^3.0.1",
+      "html-webpack-plugin": "^3.2.0",
+      "node-sass": "^4.11.0",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.23.1",
+      "url-loader": "^1.1.2",
+      "webpack": "^4.30.0",
+      "webpack-cli": "^3.3.0",
+      "webpack-dev-server": "^3.3.1"
+    },
+    "dependencies": {
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
